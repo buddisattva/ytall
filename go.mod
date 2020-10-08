@@ -2,4 +2,6 @@ module ytall
 
 go 1.12
 
-require github.com/gorilla/mux v1.8.0
+replace github.com/buddisattva/ytall/go => ./go
+
+require github.com/buddisattva/ytall/go v1.0.0
